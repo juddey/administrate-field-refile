@@ -2,7 +2,7 @@ $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name = 'administrate-field-refile'
-  gem.version = '0.0.5'
+  gem.version = '0.0.6'
   gem.authors = ['Adrian Rangel']
   gem.email = ['adrian@disruptiveangels.com']
   gem.homepage = 'https://github.com/disruptiveangels/administrate-field-refile'
@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.files = `git ls-files`.split("\n")
   gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")
 
-  gem.add_dependency 'administrate', '>= 0.2.0', '< 0.3.0'
+  gem.add_dependency 'administrate', '>= 0.2.0'
   gem.add_dependency 'rails', '>= 4.2', '< 5.1'
   gem.add_dependency 'refile', '~> 0.6'
 
